@@ -1,0 +1,33 @@
+import numpy as np
+a=np.array([1, 2, 3])
+b=np.array([4, 5, 6])
+print(a+b)
+print()
+print(a)
+
+c=np.arange(1,100,5)
+print(c)
+print()
+d=np.linspace(1,10,5)
+print(d)
+print()
+e=np.random.rand(3,3)
+print(e)
+print()
+f=np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(f)
+print()
+g=np.identity(5)
+print(g)
+print()
+h=np.eye(4)
+print(h)
+print()
+i=np.zeros((3,3))
+print(i)
+print()
+j=np.ones((2,4))
+print(j)
+
+
+

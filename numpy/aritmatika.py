@@ -1,0 +1,20 @@
+import numpy as np
+
+a=np.array([1, 2, 3])
+b=np.array([4, 5, 6])
+print(a+b)
+print()
+
+c=np.array([(1, 2, 3), (4, 5, 6), (7, 8, 9)])
+d=np.array([(9, 8, 7), (6, 5, 4), (3, 2, 1)])
+print(c*d)
+print()
+print(np.dot(c,d))
+print()
+print(c.transpose())
+print()
+print(c.ravel())
+print()
+print(c.reshape(9,1))
+print()
+print(c.reshape(3,3))
